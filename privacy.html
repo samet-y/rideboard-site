@@ -99,8 +99,10 @@ Kullanırsanız:</p>
   yalnızca özeti (hash) tutulur. Seçtiğiniz takma ad odadaki diğer kişilere
   gösterilir. E-posta, telefon numarası ya da gerçek ad istenmez.</li>
   <li><strong>Odalar:</strong> Kurduğunuz ya da katıldığınız odaların adı,
-  davet kodu, üyeleri ve oluşturulma zamanı sunucuda tutulur. Odadan
-  ayrıldığınızda üyeliğiniz silinir; boşalan oda tamamen silinir.</li>
+  davet kodu, üyeleri, oluşturulma ve son kullanım zamanı sunucuda tutulur.
+  Odadan ayrıldığınızda üyeliğiniz silinir; boşalan oda tamamen silinir.
+  <strong>90 gün boyunca kimsenin kullanmadığı odalar otomatik olarak
+  silinir.</strong></li>
   <li><strong>Ses ve mikrofon:</strong> Mikrofon yalnızca bir odaya bağlıyken
   kullanılır. Sesiniz aktarım sırasında şifrelenerek (WebRTC) sunucumuz
   üzerinden yalnızca o odadaki kişilere canlı iletilir. Ses
@@ -113,9 +115,10 @@ Kullanırsanız:</p>
   bağlantıların IP adresini ve zamanını teknik kayıtlarda tutar. Bu kayıtların
   boyutu sınırlıdır ve en eskileri otomatik olarak silinir.</li>
 </ul>
-<p>Uygulamayı silseniz bile anonim kimliğiniz ve takma adınız sunucuda
-kalabilir. Tamamen silinmesini isterseniz "Haklarınız" bölümündeki yoldan
-bize yazın.</p>
+<p><strong>12 ay boyunca kullanılmayan</strong> anonim kimlik ve takma ad,
+odalardaki üyelikleriyle birlikte otomatik olarak silinir. Uygulamayı
+silseniz bile bu süre dolana kadar sunucuda kalır; daha önce silinmesini
+isterseniz "Haklarınız" bölümündeki yoldan bize yazın.</p>
 
 <h3>Bildirimler</h3>
 <p>Hava ve akü uyarıları telefonunuzda oluşturulan yerel bildirimlerdir;
@@ -225,8 +228,10 @@ If you use it:</p>
   The nickname you choose is shown to the other people in your room. No email,
   phone number or real name is asked for.</li>
   <li><strong>Rooms:</strong> the name, invite code, members and creation time
-  of the rooms you create or join are kept on the server. When you leave a
-  room your membership is deleted; an empty room is deleted completely.</li>
+  of the rooms you create or join, and when they were last used, are kept on
+  the server. When you leave a room your membership is deleted; an empty room
+  is deleted completely. <strong>Rooms nobody uses for 90 days are deleted
+  automatically.</strong></li>
   <li><strong>Voice and microphone:</strong> the microphone is used only while
   you are connected to a room. Your voice is encrypted in transit (WebRTC) and
   sent live, through our server, only to the people in that room. Audio is
@@ -239,9 +244,10 @@ If you use it:</p>
   server keeps the IP address and time of connections in technical logs. These
   logs are size-limited and the oldest entries are deleted automatically.</li>
 </ul>
-<p>Your anonymous ID and nickname may stay on the server even if you delete
-the app. To have them deleted completely, contact us as described under "Your
-rights".</p>
+<p>An anonymous ID and nickname that are <strong>not used for 12
+months</strong> are deleted automatically, together with their room
+memberships. Even if you delete the app they stay on the server until then;
+to have them deleted sooner, contact us as described under "Your rights".</p>
 
 <h3>Notifications</h3>
 <p>Weather and battery alerts are local notifications created on your phone; no
